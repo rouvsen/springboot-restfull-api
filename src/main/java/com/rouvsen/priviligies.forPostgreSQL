@@ -1,0 +1,11 @@
+\du <- data users (you can see users)
+GRANT ALL PRIVILEGES ON DATABASE "student" TO rouvsen;
+GRANT ALL PRIVILEGES ON DATABASE "student" TO postgres
+
+\l <- list databases
+
+\c student <= connect to student database
+
+\d <- data about any relations
+
+\dt <- data about tables
